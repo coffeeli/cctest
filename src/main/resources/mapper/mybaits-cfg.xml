@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- <typeAliases>
+	<typeAlias alias="dateTH" type="com.istudy.server.common.dao.handler.DateTypeHandler"/>
+	<typeAlias alias="blobTH" type="com.istudy.server.common.dao.handler.MyBlobTypeHandler"/>
+</typeAliases> -->
+</configuration>
