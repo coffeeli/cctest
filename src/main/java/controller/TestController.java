@@ -77,4 +77,9 @@ public class TestController {
 	public String test(String id){
 		return "redirect:http://www.baidu.com";
 	}
+	
+	@RequestMapping(value="getMessageBoard",method=RequestMethod.GET)
+	public String messageboard(String id){
+		return "test/messageboard";
+	}
 }
