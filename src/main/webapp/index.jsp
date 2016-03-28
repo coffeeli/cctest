@@ -3,15 +3,28 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/main2.css">
+<script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <body>
-	<div class="">
+	<div class="main">
 		<div>
-			<span>用户名：</span><input type="text" id="username" name="username">
-			<span>密码：</span><input type="password" id="password" name="password">
+			<form action="login/pass.do" id="loginForm" name="loginForm" method="get" enctype="multipart/form-data" >
+				<span>用户名：</span><input type="text" id="username" name="username">
+				<span>密码：</span><input type="password" id="password" name="password">
+				<input type="button" id="submit" value="登陆" onclick="javascript:bfcomit()">
+			</form>
+			
 		</div>
 	</div>
 </body>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript">
+function bfcomit(){
+	alert(1);
+	loginForm.submit;
+}
+</script>
 </html>

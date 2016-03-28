@@ -1,5 +1,7 @@
 package controller;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +21,7 @@ public class LoginController {
 	LoginService loginService;
 	
 	@RequestMapping(value="pass")
-    public String pass(UserDTO user){  
+    public String pass(UserDTO user,HttpServletRequest request){  
 		L.info("Login in:" + user.getUsername());
 		return this.loginService.login(user);
     } 
