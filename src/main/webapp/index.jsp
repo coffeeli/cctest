@@ -15,6 +15,7 @@
 				<span>用户名：</span><input type="text" id="username" name="username">
 				<span>密码：</span><input type="password" id="password" name="password">
 				<input type="button" id="submit" value="登陆" onclick="javascript:bfcomit()">
+				<a href="http://baidu.com">注册</a>
 			</form>
 			
 		</div>
@@ -26,5 +27,7 @@ function bfcomit(){
 	alert(1);
 	loginForm.submit;
 }
+
+
 </script>
 </html>

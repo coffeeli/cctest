@@ -1,49 +1,47 @@
-/*  General CSS*/
-body{
-    background: #fff;
-}
+body, h1, h2, h3, h4, h5, h6, dl, dd, ul, ol, p, blockquote, form, fieldset, figure, button{margin:0;}
+    ul, ol, menu, th, td, legend, fieldset{padding:0;}
+    html{font-size:100%;-webkit-tap-highlight-color:transparent;}
+    body{font:1em/1.5 sans-serif;word-wrap:break-word;}
+    ul, ol, menu{list-style-type:none;}
+    table{border-spacing:0;border-collapse:collapse;}
 
-.wrapper{
-    width: 92.72727272727273%;
-    margin: 0 auto;
-}
+    .clearfix{zoom:1;}
+    .clearfix::before, .clearfix::after{content:"";display:table;}
+    .clearfix::after{clear:both;}
+    .ftl{float:left;}
+    .ftr{float:right;}
 
-header ul.social li a,
-.main .work a .caption,
-header nav ul li a{
-    transition:all .1s linear;
-    -webkit-transition:all .1s linear;
-    -moz-transition:all .1s linear;
-    -o-transition:all .1s linear;
-}
+    a, a:link{text-decoration:none;color:#1a35ff;}
+    a:hover, a:active{text-decoration:underline;}
 
-h1, h2, h3, h4, h5 ,h6{
-    color: #4b4848;
-    font-family: "raleway-regular", arial;
-    letter-spacing: 1px;
-}
+    .relative{position:relative;}
+    .absolute{position:absolute;}
+    .fixed{position:fixed;}
 
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
-h6              { font-size: .75em; margin: 1.67em 0 }
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
+    .indent{text-indent:2em;}
+    .tac{text-align:center;}
+    .tar{text-align:right;}
+    .tal{text-align:left;}
+    .taj{text-align:justify;}
+    .toe{white-space:nowrap;word-wrap:normal;overflow:hidden;text-overflow:ellipsis;}
 
-.clearfix:before,  
-.clearfix:after {  
-    content: " ";  
-    display: table;  
-}  
-.clearfix:after {  
-    clear: both;  
-}  
- 
-.clearfix {  
-    *zoom: 1;  
-}
+    .none{display:none;}
+    .hidden{visibility:hidden;}
 
+    .mauto{margin-left:auto;margin-right:auto;}
+    .vam{vertical-align:middle;}
+    .boxb{
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    .us-none{
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    .pe-none{pointer-events:none;}
 
 .main{
 	margin:0 auto;max-width:600px;background-color: #dedede;
